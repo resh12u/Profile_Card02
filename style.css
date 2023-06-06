@@ -1,0 +1,141 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Quicksand:wght@300;400&family=Roboto+Condensed:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(334deg, #6b97f7, #7525e2, #f7137e);
+    background-size: 180% 180%;
+    animation: gradient-animation 6s ease infinite;
+     }
+    
+    @keyframes gradient-animation {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }    
+    
+
+.container{
+    background: linear-gradient(334deg, #6b97f7, #7525e2, #381525);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #ECEDEF;
+    font-size: 17px;
+    border-radius: 50px;
+    box-shadow: 20px 20px 60px #7525e2,
+                  -20px -20px 60px #381525;
+    padding: 50px; 
+                 
+    }
+
+    .container img {
+        height: 120px;
+    width: 120px;
+    object-fit: cover;
+    box-shadow: 30px 30px 60px #7525e2,
+                  -30px -30px 60px blueviolet;
+
+    border-radius: 50%;
+    margin-bottom: 20px;
+    padding: 10px;
+    transition: all 0.7ms ease-in-out;
+    }
+
+    .container img:hover{
+        scale: 96%;
+
+    }
+
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+        color: #E9ECF1;
+        margin-top: 20px;
+        font-size: 20px;
+
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap:35px;
+     }
+
+    .icons a {
+        font-size: 30px;
+        color: #33434F;
+        transition: all 0.1s ease-in;
+        margin-top: 20px;
+    }
+
+    .icons a:hover {
+        scale: 95%;
+        color: #DC6C9C;
+
+    }
+
+    hr{
+        margin-top: 20px;
+        width: 50px;
+
+    }
+
+    .kartik {
+
+        color: #33434F;
+        font-size: 15px;
+
+    }
+
+    .content h3 {
+        color: #33434F;
+        font-size: 15px;
+        text-decoration-line: underline;
+        transition: all 0.2s ease-in-out;
+    
+    }
+
+    .content h3:hover {
+        scale:105%;
+        background-color: #6b97f7;
+        border-radius: 4px;
+
+    }
+
+
+
+
+
